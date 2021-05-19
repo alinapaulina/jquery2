@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="style.css" rel="stylesheet">
+
+    <script>
+        $(function(){
+            $('.list').on('click', function(){
+                $(this).find('li').addClass('special');
+            })
+            
+        });
+    </script>
+
+</head>
+<body>
+
+
+<style>
+    .special {
+        color: blue;
+    }
+</style>
+
+
+    <ul class="list">
+        <li>one</li>
+        <li class="special">two</li>
+        <li>three</li>
+        <li>
+    </ul>
+
+    <ul class="sublist">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </li> 
+    </ul>
+</body>
+</html>
